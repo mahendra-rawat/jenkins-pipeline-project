@@ -1,0 +1,30 @@
+java installation link 
+https://tecadmin.net/install-java-on-amazon-linux/
+
+java path - 
+/usr/lib/jvm/java-11-openjdk-11.0.16.0.8-1.amzn2.0.1.x86_64/bin/java
+
+tomcat installation : 
+
+take help of below link to manage tomcat :
+https://medium.com/@raguyazhin/step-by-step-guide-to-install-apache-tomcat-on-amazon-linux-120748a151a9
+
+<role rolename="manager-gui"/>
+<role rolename="manager-script"/>
+<role rolename="manager-jmx"/>
+<role rolename="manager-status"/>
+<user username="admin" password="admin" roles="manager-gui,manager-script,manager-jmx,manager-status"/>
+<user username="deployer" password="deployer" roles="manager-script"/>
+<user username="tomcat" password="secret" roles="manager-gui"/>
+
+
+jenkins installation link -
+https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+
+
+
+
+
+jenkins permission to run a job 
+cd var/lib/jenkins
+sudo chown -R jenkins:jenkins /var/lib/jenkins/
