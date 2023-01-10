@@ -28,3 +28,7 @@ https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 jenkins permission to run a job 
 cd var/lib/jenkins
 sudo chown -R jenkins:jenkins /var/lib/jenkins/
+
+
+path export to run kubectl command from anypath----
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
