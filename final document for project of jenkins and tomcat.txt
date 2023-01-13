@@ -98,9 +98,6 @@ jenkins admin
 password - 98d2f924614d47a3ba3ed779b1dab307
 
 
-aws credentials: 
-AKIAZTR3EKEBMIUX7IH6                         access key
-UAyksvwz7xB4wLMBna+/t63t7JgkiUPErPQxo3mk     secretkey 
 
 
 maven warfile address -- 
