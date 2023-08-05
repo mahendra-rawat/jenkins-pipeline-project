@@ -22,9 +22,6 @@ jenkins installation link -
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 
 
-
-
-
 jenkins permission to run a job 
 cd var/lib/jenkins
 sudo chown -R jenkins:jenkins /var/lib/jenkins/
@@ -84,9 +81,6 @@ https://medium.com/@raguyazhin/step-by-step-guide-to-install-apache-tomcat-on-am
 
 jenkins installation link -
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
-
-
-
 
 
 jenkins permission to run a job 
